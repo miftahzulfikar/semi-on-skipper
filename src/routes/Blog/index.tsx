@@ -6,7 +6,6 @@ import type { SkipperComponentType } from '@tokopedia/skipper/router';
 import Main from '@/components/Main';
 
 import * as styles from './blog.module.css';
-import { Button } from '@douyinfe/semi-ui';
 
 /**
  * @function Blog
@@ -26,7 +25,6 @@ const Blog: SkipperComponentType = () => {
         <button className={styles.ctaButton} type="button" onClick={() => navigate('/')}>
           Back to Home
         </button>
-        <Button>semi button</Button>
       </div>
     </Main>
   );
