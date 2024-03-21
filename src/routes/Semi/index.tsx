@@ -21,10 +21,12 @@ const Semi: SkipperComponentType = () => {
       </Helmet>
 
       <div className={styles.wrapperContent}>
-        <button className={styles.ctaButton} type="button" onClick={() => navigate('/')}>
-          Back to Home
-        </button>
-        <p className={styles.title}>Semi Design</p>
+        <Space>
+          <p className={styles.title}>Semi Design</p>
+          <button className={styles.ctaButton} type="button" onClick={() => navigate('/')}>
+            Back to Home
+          </button>
+        </Space>
         <p className={styles.description}>Test Semi design on skipper framework</p>
 
         <h2>Button</h2>
