@@ -30,7 +30,7 @@ const Seminest: SkipperComponentType = () => {
         </Space>
         <p className={styles.description}>Test Semi design on skipper framework</p>
 
-        <h2>Semi</h2>
+        <h2>Semi Design</h2>
         <Space>
           <SemiButton>Primary Button</SemiButton>
           <SemiButton type="secondary">Secondary Button</SemiButton>
@@ -39,7 +39,7 @@ const Seminest: SkipperComponentType = () => {
           <SemiButton type="danger">Danger Button</SemiButton>
         </Space>
 
-        <h2>Nest</h2>
+        <h2>Nest UI</h2>
         <Space>
           <Button>Primary Button</Button>
           <Button variant="ghost">Secondary Button</Button>
