@@ -7,6 +7,7 @@ import Home from './Home/Lazy';
 import About from './About/Lazy';
 import Blog from './Blog/Lazy';
 import Semi from './Semi/Lazy';
+import Seminest from './Seminest/Lazy';
 
 import VerifyParamsLayout from './About/layout/VerifyParams/Lazy';
 
@@ -49,6 +50,12 @@ const ROUTES: SkipperRouteEntry[] = [
     name: 'semi',
     path: '/semi',
     component: Semi,
+  },
+  {
+    type: 'route',
+    name: 'seminest',
+    path: '/seminest',
+    component: Seminest,
   },
 ];
 

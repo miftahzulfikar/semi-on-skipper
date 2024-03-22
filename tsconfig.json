@@ -2,6 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
     "plugins": [
       {
         "name": "typescript-plugin-css-modules",
@@ -12,21 +13,10 @@
       }
     ],
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
+      "@/*": ["./src/*"]
     }
   },
-  "exclude": [
-    "node_modules",
-    "**/node_modules",
-    "dist",
-    "build",
-    "src/routes/**/*.dev.tsx",
-    "src/routes/**/*.dev.ts"
-  ],
+  "exclude": ["node_modules", "**/node_modules", "dist", "build", "src/routes/**/*.dev.tsx", "src/routes/**/*.dev.ts"],
   "extends": "@lite-v3/tsconfig/index.json",
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
