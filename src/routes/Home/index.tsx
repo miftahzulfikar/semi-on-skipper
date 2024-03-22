@@ -61,6 +61,7 @@ const Home: SkipperComponentType = () => {
             <li onClick={() => navigate('/about/us')}>About</li>
             {/* <li onClick={() => navigate('/blog')}>Blog</li> */}
             <li onClick={() => navigate('/semi')}>Semi Design</li>
+            <li onClick={() => navigate('/seminest')}>Semi Design and Nest UI</li>
           </ul>
         </div>
 
