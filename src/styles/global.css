@@ -1,7 +1,15 @@
+/* import semi-theme-tuxemi */
+@import '~@semi-bot/semi-theme-tuxsemi/semi.min.css';
+
 :root {
   --NN0: #ffffff;
   --NN50: #f0f3f7;
   --NN950: #212121;
 
   --GN500: #00aa5b;
+}
+/* apply adaptive color token to body */
+body {
+  color: var(--semi-color-text-0);
+  background-color: var(--semi-color-bg-0);
 }

@@ -17,18 +17,18 @@
     "type:check": "lite-type-check",
     "type:coverage": "lite-ts-coverage-report"
   },
-  "browserslist": [
-    "extends @tokopedia/browserslist-config"
-  ],
+  "browserslist": ["extends @tokopedia/browserslist-config"],
   "dependencies": {
     "@babel/runtime": "^7.23.2",
     "@douyinfe/semi-ui": "^2.54.1",
+    "@douyinfe/semi-webpack-plugin": "^2.55.0",
     "@fastify/cookie": "^8.3.0",
     "@fastify/cors": "^8.2.1",
     "@fastify/helmet": "^10.1.0",
     "@fastify/http-proxy": "^8.4.0",
     "@fastify/static": "^6.9.0",
     "@log4js-node/logstashudp": "1.0.0",
+    "@semi-bot/semi-theme-tuxsemi": "^1.0.8",
     "@tokopedia/lite-csp": "^3.3.0",
     "@tokopedia/lite-data-masking": "^3.1.0",
     "@tokopedia/lite-tracker": "^4.1.0",
